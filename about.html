@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<title> T-shirt Design Printing </title>
+<style>
+ul#menu {
+padding:0;
+}
+ul#menu li {
+display:inline;
+
+}
+ul#menu li a {
+background-color:white;
+color:black;
+padding: 10px 20px;
+text-decoration:none;
+border-radius: 4px 4px 0 0;
+}
+ul#menu li a:hover {
+background-color:orange;
+}
+</style>
+
+</head>
+<body style="background-color:black;">
+<ul id="menu" style="text-align:right;">
+<li><a href="index.html">Home</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1 style="color:red;">About us</h1>
+<script type="text/javascript">
+<!-->
+var image1=new Image()
+image1.src="photo4.jpg"
+
+//-->
+</script>
+<img src="photo1.jpg" name="slide" width="500" height="400" style="display: block; margin-left:auto; margin-right:auto;">
+<script type="text/javascript">
+	<!--
+	var step=1
+	function slideit(){
+		document.images.slide.src=eval("image"+step+".src")
+		if(step<4)
+			step++
+		else
+			step=1
+		setTimeout("slideit()",2500)
+	}
+	slideit()
+	//-->
+</script>
+<h2 style="color:yellow; text-align:center"><strong>Developer:</strong></h2> 
+<p style="color:brown; text-align:center "><em>Bryan C. Bugtong. Hometown is in La Trinidad Benguet. As an artist who enjoys admiring the beauty of arts, I created this site. Thank you.</em></p>
+</body>
+</html>
